@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@300&family=Raleway:wght@300&family=Roboto:wght@300&family=Varela&display=swap');
+
+body {
+  background-color: #EEFEFE;
+  font-family: 'Open Sans';
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+h1 {
+  font-family: 'Roboto';
+  color: #122120;
+  font-size: 1.2em;
+}
+
+h2 {
+  font-family: 'Raleway';
+  color: #122120;
+  font-size: 0.8em;
+}
+
+h3 {
+  font-family: 'Varela';
+  color: #122120;
+  font-size: 1.0em;
+}
+
+a {
+  color: #122120;
+  text-decoration: underline;
+  /*background-color: white;*/
+}
+
+a:hover {
+  color: white;
+  /*text-decoration: underline;*/
+  /*background-color: white;*/
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+  display: block;
+}
+
+.card-white {
+  margin: 20px 0px;
+  background-color: #FCFCF2;
+  padding: 40px;
+  box-shadow: 5px 5px 10px #CEF9C9;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.btn-gray {
+  background-color: #353535;
+  color: white;
+  padding: 10px 5px;
+  border-radius: 2.5px;
+}
+
+.btn-gray:hover {
+  background-color: white;
+  color: #353535;
+  padding: 10px 5px;
+  border-radius: 2.5px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  margin: 10 px;
+  list-style: none;
+  padding-left: 0px;
+  color: #353535;
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+
+  .card-white {
+  margin: 20px 0px;
+  background-color: #FFF3F3;
+  padding: 40px;
+  box-shadow: 5px 5px 10px #CEF9C9;
+  border-radius: 5px;
+  text-align: center;
+}
+}
+
